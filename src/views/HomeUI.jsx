@@ -11,7 +11,7 @@ export default function HomeUI() {
         <>
             <AppBar position="static" sx={{ backgroundColor: '#121212' }}>
                 <Toolbar>
-                    <Typography sx={{ ml: 2, color: 'white', flexGrow: 1 }}>
+                    <Typography sx={{ ml: 2, textDecoration: 'none', color: '#C7C7C7', flexGrow: 1 }} component={Link} to='/'>
                         Sinlapachai Keawbunruang
                     </Typography>
                     <Typography sx={{ mr: '20px', textDecoration: 'none', color: '#C7C7C7' }} component={Link} to='/work'>
