@@ -8,6 +8,13 @@ const theme = createTheme({
     fontFamily: [
       'kanit'
     ].join(',')
+  }, palette: {
+    background: {
+      default: 'black',
+    },
+    text: {
+      primary: '#FFFFFF',
+    }
   }
 })
 
